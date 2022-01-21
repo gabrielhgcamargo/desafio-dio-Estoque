@@ -27,7 +27,7 @@ Instalar o plugin do Project Lombok no IntelliJ
 E enfim, clonar o repositório, utilizando o Download ZIP ou o comando git:
 
 ```
-git clone https://github.com/gabrielhgcamargo/desafio_de_projeto_BancoDigital.git
+git clone https://github.com/gabrielhgcamargo/desafio-dio-NotaFiscal-Fornecedor-Comprador.git
 ```
 
 
