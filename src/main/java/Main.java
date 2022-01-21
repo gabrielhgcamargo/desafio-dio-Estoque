@@ -30,7 +30,7 @@ public class Main {
         fornecedor.entregaFinalizada();
         System.out.println("Notas finalizadas (Notas Entregues) = " + fornecedor.getNotasEntregues());
 
-        // Exibir os Fornecedores vinculados ao Mercado e suas Notas
+        // Exibir os Fornecedores vinculados ao Mercado e suas Notas Fiscais
         System.out.println(mercado.getFornecedoresAtivos());
 
 
