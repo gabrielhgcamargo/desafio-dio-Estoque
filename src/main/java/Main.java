@@ -16,7 +16,7 @@ public class Main {
         Fornecedor fornecedor = new Fornecedor("Atacadista","744454546566");
 
         // Emissão da Nota Fiscal
-        NotaFiscal notaFiscal = new NotaFiscal("A12", LocalDate.now(),"Bolacha Nestle",100);
+        NotaFiscal notaFiscal = new NotaFiscal("A12", LocalDate.now().plusDays(45),"Bolacha Nestle",100);
         fornecedor.getNotasAtivas().add(notaFiscal);
 
         // Vinculando todas as Notas Fiscais ativas com o Mercado
